@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Header'
-import Footer from '../Footer'
+import PageFooter from '../PageFooter'
 
 const Layout = ({ children }) => {
   return (
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <div classeName='container mx-auto'>
         {children}
       </div >
-      <Footer />
+      <PageFooter />
     </div >
   )
 }
